@@ -1,0 +1,123 @@
+/* style.css */
+
+#clickButton {
+    padding: 10px 20px;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+}
+
+#hoverBox {
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+    margin: 10px 0;
+    text-align: center;
+    line-height: 100px;
+}
+
+
+/* Image Styling */
+
+img {
+    max-width: 100%;
+    /* Ensures images are responsive */
+    height: auto;
+    /* Maintains aspect ratio */
+    border-radius: 10px;
+    /* Adds rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    margin: 10px 0;
+    /* Adds spacing around images */
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* Smooth hover effect */
+}
+
+img:hover {
+    transform: scale(1.05);
+    /* Slightly zooms the image on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    /* Enhances shadow on hover */
+}
+
+
+/* Form Styling */
+
+form {
+    max-width: 400px;
+    /* Restricts form width */
+    margin: 20px auto;
+    /* Centers the form */
+    padding: 20px;
+    /* Adds inner spacing */
+    border: 2px solid #ddd;
+    /* Adds a border */
+    border-radius: 10px;
+    /* Smooths the corners */
+    background-color: #f9f9f9;
+    /* Light background for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+}
+
+
+/* Label Styling */
+
+label {
+    display: block;
+    /* Ensures labels are on top of inputs */
+    margin-bottom: 10px;
+    /* Adds spacing */
+    font-weight: bold;
+    /* Highlights the labels */
+    color: #333;
+    /* Neutral text color */
+}
+
+
+/* Input Field Styling */
+
+input {
+    width: calc(100% - 20px);
+    /* Makes input fields responsive */
+    padding: 10px;
+    /* Adds inner spacing */
+    margin-bottom: 15px;
+    /* Creates space between fields */
+    border: 1px solid #ccc;
+    /* Defines input border */
+    border-radius: 5px;
+    /* Slightly rounds input corners */
+    background-color: #fff;
+    /* White background */
+    box-sizing: border-box;
+    /* Includes padding in width calculation */
+}
+
+
+/* Submit Button */
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    /* Green background */
+    color: white;
+    /* Contrasting text color */
+    border: none;
+    /* Removes border */
+    border-radius: 5px;
+    /* Rounds corners */
+    cursor: pointer;
+    /* Pointer on hover */
+    font-weight: bold;
+    text-transform: uppercase;
+    /* Capitalizes text */
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+    /* Darker green on hover */
+}
